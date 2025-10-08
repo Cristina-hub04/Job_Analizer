@@ -64,7 +64,14 @@ pip install streamlit pandas plotly PyPDF2
 ```bash
 streamlit run job_portal_app_polished.py
 ```
+💡 Tips:
 
+Make sure you are using Python 3.9 or higher.
+
+On some systems, you might need pip3 instead of pip:
+```bash
+pip3 install streamlit pandas plotly PyPDF2
+```
 
 
 Includes progress spinners and success animations.
