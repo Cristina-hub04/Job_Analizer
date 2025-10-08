@@ -78,10 +78,10 @@ def convert_df_to_csv(df_dict):
 
 # Streamlit UI
 
-st.title("💼 Job Market & Smart Recommender App")
+st.title(" Job Market & Smart Recommender App")
 
 #  Tabs 
-tab1, tab2 = st.tabs(["📊 Market Overview", "💻 Job Recommendations"])
+tab1, tab2 = st.tabs([" Market Overview", " Job Recommendations"])
 
 #  Shared job dataset 
 st.sidebar.header("Job Dataset Options")
@@ -107,7 +107,7 @@ df_jobs["skills"] = df_jobs["description"].apply(extract_skills)
 # Tab 1: Market Overview
 
 with tab1:
-    st.header("📊 Job Market Overview")
+    st.header(" Job Market Overview")
 
     st.subheader("Raw Job Data Preview")
     st.dataframe(df_jobs.head())
@@ -118,14 +118,14 @@ with tab1:
         for s in skills:
             skill_counts[s] = skill_counts.get(s,0)+1
     skills_df = pd.DataFrame(skill_counts.items(), columns=["Skill","Count"]).sort_values("Count", ascending=False)
-    st.subheader("🔥 Top Skills in Job Postings")
+    st.subheader(" Top Skills in Job Postings")
     st.bar_chart(skills_df.set_index("Skill"))
 
     # Jobs over time
     if df_jobs["date_posted"].notna().any():
         df_jobs["date_posted"] = pd.to_datetime(df_jobs["date_posted"], errors="coerce")
         trend = df_jobs.groupby(df_jobs["date_posted"].dt.to_period("M")).size()
-        st.subheader("📈 Job Postings Over Time")
+        st.subheader(" Job Postings Over Time")
         st.line_chart(trend)
 
     # Salary by Skill
@@ -139,11 +139,11 @@ with tab1:
                 salary_by_skill.append((skill, subset["salary_num"].mean()))
         salary_df = pd.DataFrame(salary_by_skill, columns=["Skill","Avg Salary"]).dropna()
         if not salary_df.empty:
-            st.subheader("💰 Average Salary by Skill")
+            st.subheader(" Average Salary by Skill")
             st.bar_chart(salary_df.set_index("Skill"))
 
     # Download Market Analysis CSV
-    if st.button("💾 Download Market Analysis CSV"):
+    if st.button("Download Market Analysis CSV"):
         analysis_dict = {"Top Skills": skills_df}
         if not salary_df.empty:
             analysis_dict["Salary by Skill"] = salary_df
@@ -158,7 +158,7 @@ with tab1:
 # Tab 2: Job Recommendations
 
 with tab2:
-    st.header("💻 Personalized Job Recommendations")
+    st.header(" Personalized Job Recommendations")
 
     # CV upload
     cv_file = st.file_uploader("Upload your CV (PDF or TXT)", type=["pdf","txt"])
@@ -177,7 +177,7 @@ with tab2:
             cv_skills = extract_skills(cv_text)
         
 
-        st.success("✅ CV analysis complete!")
+        st.success("CV analysis complete!")
         st.subheader("Detected Skills from Your CV")
         st.write(cv_skills)
 
@@ -212,7 +212,7 @@ if cv_file:
     }
     csv_content = convert_df_to_csv(analysis_dict)
     st.download_button(
-        label="💾 Download Recommended Jobs for Tableau",
+        label=" Download Recommended Jobs for Tableau",
         data=csv_content,
         file_name="recommended_jobs_for_tableau.csv",
         mime="text/csv"
