@@ -62,7 +62,7 @@ pip install streamlit pandas plotly PyPDF2
 3️⃣ Run the app
 
 ```bash
-streamlit run job_portal_app_polished.py
+streamlit run job_portal_app.py
 ```
 💡 Tips:
 
