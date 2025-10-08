@@ -1,0 +1,51 @@
+title,company,location,date_posted,salary,description,url
+Machine Learning Engineer,Acme Corp,"London, UK",2023-05-22,3500-5500 EUR/month,"We are looking for a Machine Learning Engineer. Skills required: Tableau, SQL, AWS.",https://example.com/job/0
+Business Analyst,Globex,Remote,2024-09-27,3000-4000 EUR/month,"We are looking for a Business Analyst. Skills required: AWS, Docker, JavaScript, SQL.",https://example.com/job/1
+Data Scientist,Wayne Enterprises,"London, UK",2023-11-09,2500-3000 EUR/month,"We are looking for a Data Scientist. Skills required: SQL, Python, Excel.",https://example.com/job/2
+Business Analyst,Innotech,"Cluj-Napoca, Romania",2024-11-19,4500-5500 EUR/month,"We are looking for a Business Analyst. Skills required: JavaScript, Tableau, Docker.",https://example.com/job/3
+Frontend Developer,Wayne Enterprises,Remote,2024-04-01,3000-3500 EUR/month,"We are looking for a Frontend Developer. Skills required: Python, JavaScript, AWS, Docker.",https://example.com/job/4
+Data Scientist,Wayne Enterprises,"Bucharest, Romania",2023-03-14,3000-3500 EUR/month,"We are looking for a Data Scientist. Skills required: Docker, Excel.",https://example.com/job/5
+Data Analyst,Cyberdyne,"Cluj-Napoca, Romania",2024-04-09,3500-4000 EUR/month,"We are looking for a Data Analyst. Skills required: AWS, Python, React, JavaScript.",https://example.com/job/6
+Frontend Developer,Innotech,"Bucharest, Romania",2024-10-30,4500-5000 EUR/month,"We are looking for a Frontend Developer. Skills required: Docker, Excel, JavaScript.",https://example.com/job/7
+DevOps Engineer,Acme Corp,"London, UK",2023-05-21,3500-5500 EUR/month,"We are looking for a DevOps Engineer. Skills required: AWS, SQL, Excel, JavaScript.",https://example.com/job/8
+Data Analyst,Cyberdyne,Remote,2024-09-28,4500-5000 EUR/month,"We are looking for a Data Analyst. Skills required: SQL, Tableau, JavaScript, Excel.",https://example.com/job/9
+DevOps Engineer,Acme Corp,"Bucharest, Romania",2024-07-08,4000-5000 EUR/month,"We are looking for a DevOps Engineer. Skills required: SQL, JavaScript.",https://example.com/job/10
+DevOps Engineer,Wayne Enterprises,Remote,2024-04-02,4500-5000 EUR/month,"We are looking for a DevOps Engineer. Skills required: Python, Power BI, Excel, AWS.",https://example.com/job/11
+Data Scientist,Acme Corp,"London, UK",2024-01-30,3500-5500 EUR/month,"We are looking for a Data Scientist. Skills required: Docker, Excel, Tableau, SQL.",https://example.com/job/12
+Data Analyst,Cyberdyne,"Berlin, Germany",2024-05-14,3000-3500 EUR/month,"We are looking for a Data Analyst. Skills required: Power BI, Python.",https://example.com/job/13
+Data Scientist,Cyberdyne,"Bucharest, Romania",2024-06-25,4500-5500 EUR/month,"We are looking for a Data Scientist. Skills required: JavaScript, Tableau, SQL.",https://example.com/job/14
+Backend Developer,Wayne Enterprises,"London, UK",2024-02-09,2000-3000 EUR/month,"We are looking for a Backend Developer. Skills required: JavaScript, Power BI, Python.",https://example.com/job/15
+Data Analyst,Innotech,Remote,2023-11-28,4000-4500 EUR/month,"We are looking for a Data Analyst. Skills required: Python, React, Tableau, AWS.",https://example.com/job/16
+DevOps Engineer,Acme Corp,"Cluj-Napoca, Romania",2024-07-23,4000-6000 EUR/month,"We are looking for a DevOps Engineer. Skills required: Docker, Python.",https://example.com/job/17
+Software Engineer,Globex,Remote,2023-10-15,2500-4500 EUR/month,"We are looking for a Software Engineer. Skills required: Excel, AWS.",https://example.com/job/18
+Frontend Developer,Wayne Enterprises,"Berlin, Germany",2024-08-24,2500-3000 EUR/month,"We are looking for a Frontend Developer. Skills required: Python, Tableau.",https://example.com/job/19
+Data Scientist,Cyberdyne,"London, UK",2024-03-02,4000-6000 EUR/month,"We are looking for a Data Scientist. Skills required: React, Python.",https://example.com/job/20
+Backend Developer,Cyberdyne,"Cluj-Napoca, Romania",2023-04-08,3000-3500 EUR/month,"We are looking for a Backend Developer. Skills required: AWS, Python, Tableau.",https://example.com/job/21
+DevOps Engineer,Innotech,"Bucharest, Romania",2024-12-21,4500-5000 EUR/month,"We are looking for a DevOps Engineer. Skills required: Power BI, React, Docker, SQL.",https://example.com/job/22
+Business Analyst,Innotech,"Bucharest, Romania",2024-11-20,2500-4500 EUR/month,"We are looking for a Business Analyst. Skills required: Python, React.",https://example.com/job/23
+Software Engineer,Wayne Enterprises,"London, UK",2023-07-17,2500-3000 EUR/month,"We are looking for a Software Engineer. Skills required: AWS, JavaScript.",https://example.com/job/24
+Backend Developer,Wayne Enterprises,"Bucharest, Romania",2024-11-26,3500-5500 EUR/month,"We are looking for a Backend Developer. Skills required: Docker, Tableau.",https://example.com/job/25
+Frontend Developer,Globex,Remote,2023-11-20,3000-4000 EUR/month,"We are looking for a Frontend Developer. Skills required: AWS, Power BI, Tableau.",https://example.com/job/26
+Frontend Developer,Acme Corp,Remote,2023-06-17,4000-6000 EUR/month,"We are looking for a Frontend Developer. Skills required: SQL, Power BI, Excel.",https://example.com/job/27
+Data Scientist,Cyberdyne,"Cluj-Napoca, Romania",2023-05-24,3500-4500 EUR/month,"We are looking for a Data Scientist. Skills required: Excel, React, Power BI.",https://example.com/job/28
+DevOps Engineer,Acme Corp,Remote,2023-09-28,3000-3500 EUR/month,"We are looking for a DevOps Engineer. Skills required: Power BI, Tableau, JavaScript.",https://example.com/job/29
+Machine Learning Engineer,Globex,"Cluj-Napoca, Romania",2023-11-08,4000-5000 EUR/month,"We are looking for a Machine Learning Engineer. Skills required: AWS, React.",https://example.com/job/30
+Software Engineer,Innotech,"Cluj-Napoca, Romania",2024-04-24,4000-5000 EUR/month,"We are looking for a Software Engineer. Skills required: Python, JavaScript, Tableau.",https://example.com/job/31
+Data Scientist,Innotech,Remote,2023-12-17,4000-5000 EUR/month,"We are looking for a Data Scientist. Skills required: React, Tableau, Power BI.",https://example.com/job/32
+Data Scientist,Innotech,"Cluj-Napoca, Romania",2024-02-10,3000-5000 EUR/month,"We are looking for a Data Scientist. Skills required: Excel, Tableau, SQL.",https://example.com/job/33
+Frontend Developer,Wayne Enterprises,"Cluj-Napoca, Romania",2023-10-28,3000-3500 EUR/month,"We are looking for a Frontend Developer. Skills required: Tableau, JavaScript, React.",https://example.com/job/34
+Data Analyst,Innotech,"Bucharest, Romania",2024-12-26,3500-5500 EUR/month,"We are looking for a Data Analyst. Skills required: AWS, Power BI.",https://example.com/job/35
+Data Scientist,Innotech,"London, UK",2023-08-24,4000-4500 EUR/month,"We are looking for a Data Scientist. Skills required: SQL, AWS.",https://example.com/job/36
+DevOps Engineer,Wayne Enterprises,"Cluj-Napoca, Romania",2023-01-26,3500-4500 EUR/month,"We are looking for a DevOps Engineer. Skills required: SQL, Python, React.",https://example.com/job/37
+Machine Learning Engineer,Cyberdyne,"Cluj-Napoca, Romania",2023-09-24,2000-4000 EUR/month,"We are looking for a Machine Learning Engineer. Skills required: JavaScript, Power BI.",https://example.com/job/38
+Data Scientist,Cyberdyne,"Bucharest, Romania",2024-06-24,2500-3000 EUR/month,"We are looking for a Data Scientist. Skills required: SQL, Power BI, Python.",https://example.com/job/39
+Data Analyst,Cyberdyne,"Cluj-Napoca, Romania",2024-06-16,3000-4000 EUR/month,"We are looking for a Data Analyst. Skills required: React, AWS.",https://example.com/job/40
+Data Scientist,Globex,"Cluj-Napoca, Romania",2024-07-14,4000-5000 EUR/month,"We are looking for a Data Scientist. Skills required: Docker, Python.",https://example.com/job/41
+Backend Developer,Globex,"London, UK",2024-11-12,3000-3500 EUR/month,"We are looking for a Backend Developer. Skills required: Python, Docker, Power BI.",https://example.com/job/42
+Backend Developer,Innotech,"London, UK",2024-02-09,2500-3000 EUR/month,"We are looking for a Backend Developer. Skills required: React, Docker, Tableau.",https://example.com/job/43
+Machine Learning Engineer,Cyberdyne,Remote,2024-10-10,2000-2500 EUR/month,"We are looking for a Machine Learning Engineer. Skills required: Docker, AWS, Power BI.",https://example.com/job/44
+Data Analyst,Wayne Enterprises,Remote,2024-09-14,4500-6500 EUR/month,"We are looking for a Data Analyst. Skills required: Tableau, Docker, Python.",https://example.com/job/45
+Machine Learning Engineer,Globex,"Cluj-Napoca, Romania",2023-09-16,2500-4500 EUR/month,"We are looking for a Machine Learning Engineer. Skills required: Excel, SQL, AWS.",https://example.com/job/46
+Machine Learning Engineer,Acme Corp,"London, UK",2024-01-03,4500-6500 EUR/month,"We are looking for a Machine Learning Engineer. Skills required: Tableau, React.",https://example.com/job/47
+DevOps Engineer,Innotech,"Bucharest, Romania",2023-06-22,3000-4000 EUR/month,"We are looking for a DevOps Engineer. Skills required: Tableau, Excel, Docker, JavaScript.",https://example.com/job/48
+Backend Developer,Innotech,"Berlin, Germany",2024-04-24,2000-4000 EUR/month,"We are looking for a Backend Developer. Skills required: JavaScript, Docker.",https://example.com/job/49
