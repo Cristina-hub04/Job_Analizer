@@ -1,46 +1,52 @@
 # Job_Analizer
 
-Job Market & Smart Recommender App
+**Job Market & Smart Recommender App**
 
-A Streamlit web application that analyzes job postings, identifies in-demand skills, and provides personalized job recommendations based on a user’s CV. Perfect for students and junior job seekers to explore the job market and discover jobs that match their skills.
+**A Streamlit web application** that **analyzes** job postings, **identifies** in-demand skills, and **provides** personalized job recommendations based on a user’s CV. Perfect for students and junior job seekers to explore the job market and discover jobs that match their skills. The app let's you download the recommendations via **Tableau**.
 
-Features
+**Features**
 
-1️⃣ Market Overview
+1️⃣ **Market Overview**
 
 Upload or generate a dataset of job postings.
 
 Analyze and visualize:
 
-Top in-demand skills.
+Top in-demand skills
 
-Job postings over time.
+Job postings over time
 
-Average salary by skill.
+Average salary by skill
 
-Interactive Plotly charts for professional, dynamic visualizations.
+Interactive Plotly charts for dynamic dashboards
 
-Download CSV reports of analysis.
+Download CSV for analysis or Tableau
 
-2️⃣ CV-Based Job Recommendations
+2️⃣ **CV-Based Job Recommendations**
 
-Upload your CV (PDF or TXT).
+Upload your CV (PDF or TXT)
 
-Automatically extract your skills.
+Automatically extract your skills
 
-Compute skill match scores for each job.
+Compute skill match scores for each job
 
-Show top recommended jobs in a clean table.
+Show top recommended jobs in a clean table
 
-Highlight missing skills for each job.
+Highlight missing skills per job
 
-Optional filters for location, minimum skill match, or salary range.
+Optional filters: location, minimum skill match, salary range
 
-Download personalized recommended jobs as CSV.
+Download personalized recommendations as CSV for Tableau
 
-3️⃣ User-Friendly Interface
+3️⃣ **User-Friendly Interface**
 
-Uses Streamlit tabs to separate Market Overview and Job Recommendations.
+Streamlit tabs separate Market Overview and Job Recommendations
+
+Progress spinners and success animations for interactivity
+
+Clean layout with columns, metrics, and charts
+
+
 
 
 ### Installation
