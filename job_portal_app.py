@@ -6,14 +6,14 @@ from datetime import datetime, timedelta
 import io
 import PyPDF2
 
-# ----------------------------
-# Config / Skills
-# ----------------------------
+
+# Config
+
 SKILLS = ["python","sql","excel","tableau","power bi","javascript","react","aws","docker","java"]
 
-# ----------------------------
+
 # Functions
-# ----------------------------
+
 def extract_skills(text):
     if not isinstance(text, str):
         return []
@@ -75,15 +75,15 @@ def convert_df_to_csv(df_dict):
         output.write("\n")
     return output.getvalue()
 
-# ----------------------------
+
 # Streamlit UI
-# ----------------------------
+
 st.title("💼 Job Market & Smart Recommender App")
 
-# --- Tabs ---
+#  Tabs 
 tab1, tab2 = st.tabs(["📊 Market Overview", "💻 Job Recommendations"])
 
-# --- Shared job dataset ---
+#  Shared job dataset 
 st.sidebar.header("Job Dataset Options")
 use_fake = st.sidebar.checkbox("Generate dataset", value=True)
 
@@ -103,9 +103,9 @@ for col in ["description","date_posted","salary"]:
         df_jobs[col] = None
 df_jobs["skills"] = df_jobs["description"].apply(extract_skills)
 
-# ----------------------------
+
 # Tab 1: Market Overview
-# ----------------------------
+
 with tab1:
     st.header("📊 Job Market Overview")
 
@@ -154,9 +154,9 @@ with tab1:
         csv_content = convert_df_to_csv(analysis_dict)
         st.download_button("Download CSV", data=csv_content, file_name="market_analysis.csv", mime="text/csv")
 
-# ----------------------------
+
 # Tab 2: Job Recommendations
-# ----------------------------
+
 with tab2:
     st.header("💻 Personalized Job Recommendations")
 
@@ -164,10 +164,10 @@ with tab2:
     cv_file = st.file_uploader("Upload your CV (PDF or TXT)", type=["pdf","txt"])
 
     if cv_file:
-        # Spinner starts here
+        
         with st.spinner("Analyzing your CV..."):
             import time
-            time.sleep(2)  # optional, simulate processing time
+            time.sleep(2)  
 
             if cv_file.type == "application/pdf":
                 cv_text = pdf_to_text(cv_file)
@@ -175,7 +175,7 @@ with tab2:
                 cv_text = str(cv_file.read(), "utf-8")
             
             cv_skills = extract_skills(cv_text)
-        # Spinner ends here
+        
 
         st.success("✅ CV analysis complete!")
         st.subheader("Detected Skills from Your CV")
@@ -199,14 +199,26 @@ with tab2:
         st.bar_chart(missing_df.set_index("Missing Skill"))
 
         
+if cv_file:
+    
+    df_sorted = df_jobs.sort_values("match_score", ascending=False)
 
-        # Download recommended jobs
-        if st.button("💾 Download Recommended Jobs CSV"):
-            analysis_dict = {"Recommended Jobs": df_sorted[["title","company","location","match_score"]]}
-            csv_content = convert_df_to_csv(analysis_dict)
-            st.download_button("Download CSV", data=csv_content, file_name="recommended_jobs.csv", mime="text/csv")
-    else:
-        st.info("Upload a CV to get personalized job recommendations.")
+   
+      # Download recommended jobs for Tableau
+    st.subheader("Export Recommended Jobs for Tableau")
+    analysis_dict = {
+        "Recommended Jobs": df_sorted[["title","company","location","match_score"]],
+        "Missing Skills": df_sorted[["title","missing_skills"]] if "missing_skills" in df_sorted.columns else pd.DataFrame()
+    }
+    csv_content = convert_df_to_csv(analysis_dict)
+    st.download_button(
+        label="💾 Download Recommended Jobs for Tableau",
+        data=csv_content,
+        file_name="recommended_jobs_for_tableau.csv",
+        mime="text/csv"
+    )
+    st.dataframe(df_sorted.head(10))
+
 
         
 
