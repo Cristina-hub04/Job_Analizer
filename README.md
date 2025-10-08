@@ -5,6 +5,7 @@ Job Market & Smart Recommender App
 A Streamlit web application that analyzes job postings, identifies in-demand skills, and provides personalized job recommendations based on a user’s CV. Perfect for students and junior job seekers to explore the job market and discover jobs that match their skills.
 
 Features
+
 1️⃣ Market Overview
 
 Upload or generate a dataset of job postings.
@@ -48,15 +49,18 @@ Uses Streamlit tabs to separate Market Overview and Job Recommendations.
 
 ```bash
 git clone https://github.com/yourusername/job-market-recommender.git
-cd job-market-recommender```
+cd job-market-recommender
+```
 
 
 2️⃣ Install dependencies
+
 ```bash
 pip install streamlit pandas plotly PyPDF2
 ```
 
 3️⃣ Run the app
+
 ```bash
 streamlit run job_portal_app_polished.py
 ```
