@@ -6,7 +6,7 @@
 
 **Features**
 
-1️⃣ **Market Overview**
+1. **Market Overview**
 
 Upload or generate a dataset of job postings.
 
@@ -22,7 +22,7 @@ Interactive Plotly charts for dynamic dashboards
 
 Download CSV for analysis or Tableau
 
-2️⃣ **CV-Based Job Recommendations**
+2. **CV-Based Job Recommendations**
 
 Upload your CV (PDF or TXT)
 
@@ -38,7 +38,7 @@ Optional filters: location, minimum skill match, salary range
 
 Download personalized recommendations as CSV for Tableau
 
-3️⃣ **User-Friendly Interface**
+3. **User-Friendly Interface**
 
 Streamlit tabs separate Market Overview and Job Recommendations
 
@@ -51,7 +51,7 @@ Clean layout with columns, metrics, and charts
 
 ### Installation
 
-1️⃣ Clone the repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/job-market-recommender.git
@@ -59,18 +59,18 @@ cd job-market-recommender
 ```
 
 
-2️⃣ Install dependencies
+2. Install dependencies
 
 ```bash
 pip install streamlit pandas plotly PyPDF2
 ```
 
-3️⃣ Run the app
+3. Run the app
 
 ```bash
 streamlit run job_portal_app.py
 ```
-💡 Tips:
+ Tips:
 
 Make sure you are using Python 3.9 or higher.
 
